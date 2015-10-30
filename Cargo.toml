@@ -1,0 +1,15 @@
+[package]
+name = "notmuch"
+version = "0.1.0"
+authors = ["Steven Allen <steven@stebalien.com>"]
+
+[dependencies.notmuch-sys]
+path = "../notmuch-sys"
+
+[dependencies]
+abort_on_panic = "1.0"
+libc = "*"
+log = "*"
+
+[dev-dependencies]
+tempdir = "*"
